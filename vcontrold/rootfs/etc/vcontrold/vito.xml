@@ -4,13 +4,14 @@
     <device ID="2098" name="V200KW2" protocol="KW2"/>
     <device ID="2053" name="GWG_VBEM" protocol="GWG"/>
     <device ID="20CB" name="VScotHO1" protocol="P300"/>
+    <device ID="204B" name="300GC12" protocol="P300"/>
     <device ID="2094" name="V200KW1" protocol="KW2"/>
   </devices>
   <commands>
     <!-- Gerätedaten -->
     <!-- AUSSENTEMPERATUR -->
     <command name="getTempA" protocmd="getaddr">
-      <addr>01C1</addr>
+      <addr>0101</addr>
       <len>2</len>
       <unit>UT</unit>
       <description>Ermittle die Aussentemperatur in Grad C</description>
