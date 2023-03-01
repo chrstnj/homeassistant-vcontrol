@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 1.8.4.1
+
+- First Test for 301.C12
+
 ## 1.8.4
 
 - Added polish translation (@Qbunjo)
