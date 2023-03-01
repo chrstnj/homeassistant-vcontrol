@@ -11,7 +11,7 @@
     <!-- Gerätedaten -->
     <!-- AUSSENTEMPERATUR -->
     <command name="getTempA" protocmd="getaddr">
-      <addr>0800</addr>
+      <addr>0101</addr>
       <len>2</len>
       <unit>UT</unit>
       <device ID="204B">
